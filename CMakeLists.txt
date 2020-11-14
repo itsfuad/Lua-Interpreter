@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-set(project Lua)
+set(project ProJect_name_here)
 project(${project})
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
 #set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -O2")
@@ -12,9 +12,9 @@ set(cpp_libs
         libssp-0.dll
         libstdc++-6.dll
         libwinpthread-1.dll)
-set(lua_include_dir "G:/Softwares/C++ Compiler/lua/include")
-set(lua_lib_dir "G:/Softwares/C++ Compiler/lua")
-set(cpp_dir "G:\\Softwares\\C++ Compiler\\mingw32\\bin")
+set(lua_include_dir Lua_dir) #for example "G:/Softwares/lua/include"
+set(lua_lib_dir Lua_lib) #for example "G:/Softwares/lua/lib"
+set(cpp_dir C++_compilers_binary_dir) #for example "G:/Softwares/MinGW64/bin"
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(${lua_include_dir})
@@ -26,4 +26,4 @@ foreach(lib ${cpp_libs})
 endforeach()
 add_executable(${project} main.cpp )
 
-target_link_libraries(${project} winmm.a lua54.a)
+target_link_libraries(${project} lua54.a)
