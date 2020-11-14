@@ -1,3 +1,10 @@
+/*
+    Author: Fuad Hasan
+    Type: Interpreter
+    Date: November 14, 2020
+    This is a lua intrpreter. If you copy or modify this code then give me a little credit.
+    Happy Coding..!
+*/
 #include <iostream>
 #include <lua.hpp>
 void intr(), exit(), help(), compile();
@@ -21,6 +28,7 @@ void intr(){
     }
     if(luaL_dostring(Lua, itr_text.c_str()) == LUA_OK){} //Run The script
     else{std::cout << lua_tostring(Lua, -1) << std::endl;} //Show error messages
+    intr();
 }
 void exit(){
     exit(0);
