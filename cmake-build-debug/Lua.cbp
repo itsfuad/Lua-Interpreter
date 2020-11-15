@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lua"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/DEV/C++/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lua">
+				<Option output="G:/DEV/C++/untitled/cmake-build-debug/Lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/DEV/C++/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Softwares/C++ Compiler/lua/include"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lua"/>
+					<CompileFile command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lua/fast">
+				<Option output="G:/DEV/C++/untitled/cmake-build-debug/Lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/DEV/C++/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Softwares/C++ Compiler/lua/include"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="G:/Softwares/C++ Compiler/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lua/fast"/>
+					<CompileFile command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/DEV/C++/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/DEV/C++/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Softwares/C++ Compiler/mingw32/bin/mingw32-make.exe -f &quot;G:/DEV/C++/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/DEV/C++/untitled/main.cpp">
+			<Option target="Lua"/>
+		</Unit>
+		<Unit filename="G:/DEV/C++/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

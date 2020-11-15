@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Lua.dir/objects.a
+"G:\Softwares\C++ Compiler\mingw32\bin\ar.exe" cr CMakeFiles\Lua.dir/objects.a @CMakeFiles\Lua.dir\objects1.rsp
+"G:\Softwares\C++ Compiler\mingw32\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\Lua.dir/objects.a -Wl,--no-whole-archive  -o Lua.exe -Wl,--out-implib,libLua.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lua.dir\linklibs.rsp

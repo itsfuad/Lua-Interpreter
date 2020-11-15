@@ -1,0 +1,3 @@
+G:/DEV/C++/untitled/cmake-build-debug/CMakeFiles/Lua.dir
+G:/DEV/C++/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/DEV/C++/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

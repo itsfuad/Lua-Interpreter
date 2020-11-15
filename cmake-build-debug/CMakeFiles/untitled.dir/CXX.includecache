@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/DEV/C++/untitled/main.cpp
+iostream
+-
+chrono
+-
+map
+-
+thread
+-
+functional
+-
+mutex
+-
+atomic
+-
+

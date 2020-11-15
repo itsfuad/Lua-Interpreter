@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/DEV/C++/untitled/main.cpp
+iostream
+-
+lua.hpp
+-
+
+G:/Softwares/C++ Compiler/lua/include/lauxlib.h
+stddef.h
+-
+stdio.h
+-
+lua.h
+G:/Softwares/C++ Compiler/lua/include/lua.h
+
+G:/Softwares/C++ Compiler/lua/include/lua.h
+stdarg.h
+-
+stddef.h
+-
+luaconf.h
+G:/Softwares/C++ Compiler/lua/include/luaconf.h
+
+G:/Softwares/C++ Compiler/lua/include/lua.hpp
+lua.h
+G:/Softwares/C++ Compiler/lua/include/lua.h
+lualib.h
+G:/Softwares/C++ Compiler/lua/include/lualib.h
+lauxlib.h
+G:/Softwares/C++ Compiler/lua/include/lauxlib.h
+
+G:/Softwares/C++ Compiler/lua/include/luaconf.h
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
+assert.h
+-
+
+G:/Softwares/C++ Compiler/lua/include/lualib.h
+lua.h
+G:/Softwares/C++ Compiler/lua/include/lua.h
+
