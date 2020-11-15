@@ -11,14 +11,17 @@ void intr(), exit(), help(), compile();
 lua_State* Lua = luaL_newstate();
 
 void help(){
-    std::cout << "\t\t\t\t[Help]\n\n";
-    std::cout << "--intr\t\t\t[Turn on Interpreter mode]\n";
-    std::cout << "exit\t\t\t[Exit Lua]\n";
+    std::cout << "\t\t\t[Help]\n\n";
+    std::cout << "--intr\t\t[Turn on Interpreter mode]\n";
+    std::cout << "exit\t\t[Exit Lua]\n";
+    std::cout << "Lua [filename.lua]  [Run Lua Script]\n";
+    std::cout << "[i] [interpreter mode]\n";
+    std::cout << "[n] [normal mode]\n\n";
 }
 void intr(){
     luaL_openlibs(Lua);
     std::string itr_text;
-    std::cout << ">>>";
+    std::cout << "[i]>>> ";
     getline(std::cin, itr_text);
     if(itr_text == std::string("exit")){
         exit();
@@ -43,7 +46,7 @@ int main(int argc, char* argv[]) {
     if(argc == 1){
         ///Open with no param
         std::string inp;
-        std::cout << ">>>";
+        std::cout << "[n]>>> ";
         getline(std::cin, inp);
         if(inp == std::string("--help")){
             help();
